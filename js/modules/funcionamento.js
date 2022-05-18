@@ -32,7 +32,7 @@ export default class Funcionamento {
     }
   }
 
-  int() {
+  init() {
     if (this.funcionamento) {
       this.dadosFuncionamento();
       this.dadosAgora();
