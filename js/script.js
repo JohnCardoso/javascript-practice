@@ -41,7 +41,7 @@ dropDown.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
-const funcionamento = new Funcionamento();
+const funcionamento = new Funcionamento('[data-semana]', 'aberto');
 funcionamento.init();
 
 fetchAnimais('../../animaisapi.json', '.numeros-grid');
